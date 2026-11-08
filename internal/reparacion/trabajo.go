@@ -7,4 +7,5 @@ type Trabajo struct {
 	urgencia      Urgencia
 	llamada       time.Time
 	materialDesde time.Time
+	duracion      time.Duration
 }
