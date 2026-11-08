@@ -1,5 +1,6 @@
 package reparacion
 
 type Trabajo struct {
-	id int
+	id       int
+	urgencia Urgencia
 }
