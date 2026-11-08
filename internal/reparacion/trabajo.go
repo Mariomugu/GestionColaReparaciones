@@ -8,4 +8,5 @@ type Trabajo struct {
 	llamada       time.Time
 	materialDesde time.Time
 	duracion      time.Duration
+	citas         []Cita
 }
