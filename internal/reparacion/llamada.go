@@ -2,10 +2,10 @@ package reparacion
 
 import "time"
 
-type Trabajo struct {
+type Llamada struct {
 	id             int
 	urgencia       Urgencia
-	llamada        time.Time
+	momento        time.Time
 	materialDesde  time.Time
 	duracion       time.Duration
 	citas          []Cita
