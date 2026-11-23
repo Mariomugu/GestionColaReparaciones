@@ -1,5 +1,8 @@
 package reparacion
 
+import "time"
+
 type Reparto struct {
-	llamadas []Llamada
+	llamadas map[int]Llamada
+	citas    map[time.Time]Cita
 }
